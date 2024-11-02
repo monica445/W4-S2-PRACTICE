@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+      body{
+        margin: 0;
+        padding: 0;
+        background: pink;
+        padding-left: 10em;
+        padding-right: 10em;
+      }
+  
+      .container {
+        height: 100vh;
+        background: greenyellow;
+        
+        display: flex;
+        flex-direction: column;
+
+      }
+      .main{
+        background-color: gray;
+        flex-grow: 1;
+        margin-bottom: 1em;
+        row-gap: 1em;
+      }
+      .header, .footer{
+        background-color: gray;
+        height: 100px;
+        
+        
+      }
+      .header {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <header>Header</header>
+      </div>
+
+      <div class="main">
+        <main>Main</main>
+      </div>
+      
+      <div class="footer">
+        <footer>Footer</footer>
+      </div>
+
+    </div>
+  </body>
+</html>

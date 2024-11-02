@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+        
+        *{
+            font-family: verdana;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .container{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        .header{
+            color: white;
+            background-color: #1e90ff;
+            display: flex;
+            height: 150px;
+            border-radius: 0.5em;
+            padding-left: 1em;
+            padding-top: 1em;
+        }
+        .middle-section{
+            display: flex;
+            flex-direction: row;
+            flex: 0.6;
+        }
+        .main{
+            flex: 0.75;
+            padding: 1em 1em 1em 1em;
+            background-color: #3cb371;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border-radius: 0.5em;
+            margin-right: 1em;
+            margin-top: 1em;
+
+        }
+        .main-text{
+            flex: 0.2;
+            color: white;
+        }
+        .main-box{
+            flex: 0.8;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .main-item{
+            display: flex;
+            background-color: #2f8d59;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 0.5em;
+            font-size: 18px;
+        }
+        .sidebar{
+            color: white;
+            background-color:#ff6347 ;
+            padding-left: 1em;
+            padding-top: 1em;
+            flex: 0.25;
+            border-radius: 0.5em;
+            margin-top: 1em;
+
+        }
+        .footer{
+            color: white;
+            background-color: #4169e1;
+            padding-left: 1em;
+            padding-top: 1em;
+            display: flex;
+            height: 150px;
+            border-radius: 0.5em;
+            margin-top: 1em;
+            
+        }
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="middle-section">
+            <div class="main">
+                <div class="main-text">main</div>
+                <div class="main-box">
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                    <div class="main-item">item</div>
+                </div>
+            </div>
+            <div class="sidebar">sidebar</div>
+        </div>
+        <div class="footer"><footer>footer</footer></div>
+    </div>
+
+  </body>
+</html>
